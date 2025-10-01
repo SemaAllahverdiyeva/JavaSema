@@ -1,0 +1,5 @@
+package lesson32;
+
+public class Worker {
+
+}
