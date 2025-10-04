@@ -2,7 +2,7 @@ package lesson35;
 
 public class Calculation {
 
-	public void calculatePrice(Object obj) {
+	public static void calculatePrice(Object obj) {
 		if (obj instanceof Car) {
 			Car car = (Car) obj;
 

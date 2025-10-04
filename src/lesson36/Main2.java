@@ -17,8 +17,6 @@ public class Main2 {
 	public static void a(String a) throws InvalidUserInputException {
 		if (a.isBlank() == true) {
 			throw new InvalidUserInputException("blank");
-		} else {
-			throw new InvalidUserInputException("not blank");
 		}
 	}
 }
