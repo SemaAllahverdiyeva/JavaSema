@@ -27,8 +27,6 @@ public class Main {
     public static void check(int number, int min, int max) throws OutOfRangeValueException {
         if (number >= min && number <= max) {
             throw new OutOfRangeValueException("Eded verilen araliqdadir");
-        }else {
-            throw new OutOfRangeValueException("Eded verilen araliqda deyil");
         }
     }
 }
